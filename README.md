@@ -183,6 +183,10 @@ SteamFriensTracker/
 * **Secure WebSockets:** SignalR connections use a secure token transmission mechanism via Query String (`?access_token=...`). This token is intercepted and validated by the Gateway before the connection is allowed to reach the Hub.
 * **Secret Management:** Sensitive keys (Database passwords, Steam API Keys, Connection Strings) are strictly managed via environment variables (`.env`) and are **never** hardcoded in the source code.
 
+## 🔗 Related Projects
+
+- React Frontend: https://github.com/oket23/Frontend_SteamFriednsTracker
+
 ## 📜 License
 
 This project is licensed under the MIT License. Feel free to use it for educational purposes.
